@@ -127,7 +127,7 @@ namespace VendasOsorioA.View
                         Console.WriteLine("Digite o nome do produto:");
                         p.NomeProduto = Console.ReadLine();
                         Console.WriteLine("Digite o preço do produto:");
-                        p.PrecoProduto = Convert.ToInt32(Console.ReadLine());   //////////////// tem como deixar convertido de double pra string por toInt32 ou é outro ???
+                        p.PrecoProduto = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Digite a quantidade de produtos:");
                         p.QuantidadeProduto = Convert.ToInt32(Console.ReadLine());
 
