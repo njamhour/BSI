@@ -47,6 +47,7 @@
     <Compile Include="DAL\ProdutoDAO.cs" />
     <Compile Include="DAL\VendedorDAO.cs" />
     <Compile Include="Model\Cliente.cs" />
+    <Compile Include="Model\ItemVenda.cs" />
     <Compile Include="Model\Produto.cs" />
     <Compile Include="DAL\VendaDAO.cs" />
     <Compile Include="Model\Venda.cs" />
