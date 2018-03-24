@@ -12,15 +12,17 @@ namespace VendasOsorioA.Model
         {
             Data = DateTime.Now;
             Quantidade = 1;
-            Produto = new Produto();
+            Produto = new Produto(); // public Produto Produto { get; set; }
             Vendedor = new Vendedor();
             Cliente = new Cliente();
             
         }
-        public Produto Produto { get; set; }
+        public List<ItemVenda> Produto { get; set; }
         public Vendedor Vendedor { get; set; }
         public Cliente Cliente { get; set; }
         public DateTime Data { get; set; }
         public int Quantidade { get; set; }
     }
 }
+
+// Fazer a venda com multiplos produtos

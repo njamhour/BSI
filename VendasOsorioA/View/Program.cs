@@ -182,6 +182,7 @@ namespace VendasOsorioA.View
                                     Console.WriteLine("Digite a quantidade:");
                                     venda.Quantidade = Convert.ToInt32(Console.ReadLine());
                                     venda.Data = DateTime.Now;
+                                    VendaDAO.CadastrarVenda(venda);
                                     Console.WriteLine("Venda cadastrada com sucesso!");
                                 }
                                 else
@@ -212,6 +213,7 @@ namespace VendasOsorioA.View
 
                         Console.Clear();
                         Console.WriteLine(" -- LISTAR VENDAS -- \n");
+                        VendaDAO.RetornarVendas();
 
 
 
