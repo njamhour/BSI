@@ -1,0 +1,18 @@
+c:\users\diogo\documents\visual studio 2015\Projects\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.exe.config
+c:\users\diogo\documents\visual studio 2015\Projects\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.exe
+c:\users\diogo\documents\visual studio 2015\Projects\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.pdb
+c:\users\diogo\documents\visual studio 2015\Projects\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.csprojResolveAssemblyReference.cache
+c:\users\diogo\documents\visual studio 2015\Projects\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.exe
+c:\users\diogo\documents\visual studio 2015\Projects\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.pdb
+C:\Users\Pedro\Desktop\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.exe.config
+C:\Users\Pedro\Desktop\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.exe
+C:\Users\Pedro\Desktop\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.pdb
+C:\Users\Pedro\Desktop\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.exe
+C:\Users\Pedro\Desktop\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.pdb
+C:\Users\Pedro\Desktop\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.exe.config
+C:\Users\Aluno\Desktop\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.exe
+C:\Users\Aluno\Desktop\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.pdb
+C:\Users\Aluno\Desktop\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.exe
+C:\Users\Aluno\Desktop\VendasOsorioA\VendasOsorioA\bin\Debug\VendasOsorioA.pdb
+C:\Users\Aluno\Desktop\VendasOsorioA\VendasOsorioA\obj\Debug\VendasOsorioA.csprojResolveAssemblyReference.cache
