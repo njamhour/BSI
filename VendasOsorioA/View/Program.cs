@@ -167,9 +167,35 @@ namespace VendasOsorioA.View
                         venda.Vendedor = VendedorDAO.BuscarVendedorPorCpf(venda.Vendedor);
                         if(venda.Vendedor != null)
                         {
+                            Console.WriteLine("Digite o CPF do Cliente:");
                             //Continuar venda
-                            Console.WriteLine("Venda realizada com sucesso!");
+                            //Console.WriteLine("Venda realizada com sucesso!");
+                            if(venda.Cliente != null)
+                            {
+                                venda.Cliente.CpfCliente = Console.ReadLine();
+                                venda.Cliente = ClienteDAO.BuscarClientePorCpf(venda.Cliente);
+                                Console.WriteLine("Digite o nome do Produto");
+                                venda.Produto.NomeProduto = Console.ReadLine();
+                                venda.Produto = ProdutoDAO.BuscarProdutoPorNome(venda.Produto);
+                                if(venda.Produto != null)
+                                {
+                                    Console.WriteLine("Digite a quantidade:");
+                                    venda.Quantidade = Convert.ToInt32(Console.ReadLine());
+                                    venda.Data = DateTime.Now;
+                                    Console.WriteLine("Venda cadastrada com sucesso!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Produto não cadastrado!");
+                                }
+
+                            }
+                            else
+                            {
+                                Console.WriteLine("Cliente não cadastrado!");
+                            }
                         }
+                            
                         else
                         {
                             Console.WriteLine("Vendedor não cadastrado!");

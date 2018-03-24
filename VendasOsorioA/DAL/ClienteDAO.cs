@@ -12,20 +12,39 @@ namespace VendasOsorioA.DAL
     {
         private static List<Cliente> clientes = new List<Cliente>(); //Criação da lista 
 
-        public static bool CadastrarCliente(Cliente c) //Grava os dados
+        public static bool CadastrarCliente(Cliente c)        //Grava os dados
         {
+            if (BuscarClientePorCpf(c) != null)
+            {
+                return false;
+            }
 
-            foreach (Cliente clienteCadastrado in clientes)
+            /*foreach (Vendedor vendedorCadastrado in vendedores)
             {
 
-                if (clienteCadastrado.CpfCliente.Equals(c.CpfCliente))
+                if (vendedorCadastrado.CpfVendedor.Equals(v.CpfVendedor))
                 {
                     return false;
                 }
 
-            }
+            }*/
             clientes.Add(c);
             return true;
+        }
+
+        public static Cliente BuscarClientePorCpf(Cliente c)
+        {
+            foreach (Cliente clienteCadastrado in clientes)
+            {
+                if (!clienteCadastrado.CpfCliente.Equals(c.CpfCliente))
+                {
+                    //Console.WriteLine("Vendedor não encontrado!");
+                    return clienteCadastrado;
+
+                }
+
+            }
+            return null;
 
         }
 

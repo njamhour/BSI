@@ -14,18 +14,38 @@ namespace VendasOsorioA.DAL
 
         public static bool CadastrarProduto(Produto p)        //Grava os dados
         {
+            if (BuscarProdutoPorNome(p) != null)
+            {
+                return false;
+            }
 
-            foreach (Produto produtoCadastrado in produtos)
+            /*foreach (Vendedor vendedorCadastrado in vendedores)
             {
 
-                if (produtoCadastrado.NomeProduto.Equals(p.NomeProduto))
+                if (vendedorCadastrado.CpfVendedor.Equals(v.CpfVendedor))
                 {
                     return false;
                 }
 
-            }
+            }*/
             produtos.Add(p);
             return true;
+        }
+
+        public static Produto BuscarProdutoPorNome(Produto p)
+        {
+            foreach (Produto produtoCadastrado in produtos)
+            {
+                if (!produtoCadastrado.NomeProduto.Equals(p.NomeProduto))
+                {
+                    //Console.WriteLine("Vendedor não encontrado!");
+                    return produtoCadastrado;
+
+                }
+
+            }
+            return null;
+
         }
 
 
